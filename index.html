@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-devide-width, initial-scale=1.0">
+        <title>Apoorv Dixit</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cfcbad7080.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1>AD</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openMenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Hey there,</p>
+                    <h1>I am <span>Apoorv Dixit</span><br/>& I live to code!</h1>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I have pursued my Bachelor's degree in Computer Engineering from Pune Institute of Computer Technology. During my college days, I have explored various fields like Web Development, Artificial Intelligence, and Blockchain. I have interned at Centre for Development of Advanced Computing (C-DAC), Bynry Technologies, and BizAmica Software Pvt. Ltd.</p>
+                        <br/>
+                        <p>After college, I have worked at Siemens Digital Industries Software as Software Engineer. Over the course of two years, I have worked on two projects in Computer Aided Design Domain, been recognized for my work on many occasions, won multiple accolades during Quarterly Innovation Days, volunteered on initiatives like Siemens Scholarship Program, received a promotion, and filed two patents.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                            <p class="tab-links" onclick="openTab('achievements')">Achievements</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>JavaScript, Python, Solidity, Java</li>
+                                <li><span>Web Development Tools</span><br>VueJs, NextJs, Angular, ExpressJs, Siemens Web Framework, ThreeJs, BrowserStack</li>
+                                <li><span>Machine Learning Libraries</span><br>Tensorflow, SpaCy, Transformers, Google Vision, Tesseract, OpenCV, OpenAI</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Siemens Digital Industries Software</span><br>Software Engineer - Associate (Dec 2022 - Jul 2023)<br>Graduate Trainee Engineer (Jul 2021 - Dec 2022)</li>
+                                <li><span>BizAmica Software Pvt. Ltd.</span><br>Machine Learning Intern (Aug 2020 - Mar 2021)</li>
+                                <li><span>Bynry Technologies</span><br>Web Development Intern (May 2020 - Jul 2020)</li>
+                                <li><span>Centre for Development of Advanced Computing</span><br>Research Intern (Feb 2020 - May 2020)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>University of Southern California</span><br>Master of Science in Computer Science (2023 - Present)</li>
+                                <li><span>Pune Institute of Computer Technology</span><br>Bachelor of Engineering in Computer Engineering (2017 - 2021)</li>
+                                <li><span>Fergusson Junior College, Pune</span><br>Higher Secondary Education - 12th Grade (2017)</li>
+                                <li><span>The Bishop's Co-Ed School, Kalyani Nagar, Pune</span><br>Indian Certificate of Secondary Education - 10th Grade (2015)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="achievements">
+                            <ul>
+                                <li><span>Siemens DISW Innovation Days</span><br>I have received multiple accolades during Siemens DISW Quarterly Innovation Days - Won first prize twice, second prize twice, third prize once, and an honorable mention.</li>
+                                <li><span>Patent Applications</span><br>I have filed two patents (undisclosed) in the CAD Domain. The patents are in the field of Artificial Intelligence.</li>
+                                <li><span>Recognition by Siemens DISW - Delete Command</span><br>I have been recognized by the Siemens DISW for excellent work in redesigning "Delete" Command.</li>
+                                <li><span>Recognition by Siemens DISW - New Functionality</span><br>I have been recognized by the Siemens DISW for significant contribution to new functionality immediately after completing the training.</li>
+                                <li><span>Recognition by Siemens DISW - ChatGPT & LLMs</span><br>I have been recognized by the Siemens DISW for generating awareness about ChatGPT and LLMs among employees.</li>
+                                <li><span>Recognition by Siemens DISW - Family Day</span><br>I have been recognized by the Siemens DISW for meticulous organization of Family Day, an event hosted by company for its employees and their families.</li>
+                                <li><span>Recognition by Siemens DISW - Siemens Scholarship Program</span><br>I have been recognized by the Siemens DISW for volunteering on the assessment panel for Siemens Scholarship Program.</li>
+                                <li><span>Third Prize & Ethereum Track Prize at HackOverflow</span><br>I received Third Prize at the Devcon' 21 HackOverflow on DevFolio for developing “Platform DCMS” - A Blockchain WebApp on Ethereum to host competitions and verify the participants and winners. Platform DCMS won the Ethereum track prize from Polygon at Devfolio as well.</li>
+                                <li><span>High Commendation at Indian Diplomatic Assembly MUN</span><br>I received High Commendation at the Indian Diplomatic Assembly MUN for representing Federal Republic of Nigeria at Economic and Social Council (ECOSOC) Committee under the agenda "African Nations emerging out of conflict".</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/zel-x.jpg">
+                        <div class="layer">
+                            <h3>Siemens Zel X and Xcelerator Share</h3>
+                            <p>Zel X and Xcelerator Share are cloud softwares in Computer Aided Design Domain that enable Mechanical engineers, designers, and other stakeholders to create, edit, store, and collaborate on CAD Projects.</p>
+                            <a href="https://www.dex.siemens.com/zel-x" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/document-digitization.png">
+                        <div class="layer">
+                            <h3>Named Entity Recognition for Legal Insurance Documents</h3>
+                            <p>I developed the AI pipeline to extract named entities like Advocates' names and Court case numbers from Legal Insurance Documents. The project is successfully integrated in IzDox, the flagship product of BizAmica Software Pvt. Ltd.</p>
+                            <a href="https://izdox.com/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/facerecognition.png">
+                        <div class="layer">
+                            <h3>Analysis of Face Embeddings & Similarity Search Algorithms</h3>
+                            <p>As an intern at C-DAC, I studied Face Embedding Generation Systems like FaceNet and DR-GAN and compared their performance using the t-SNE technique. I benchmarked the performance of 20 Similarity Search Algorithm Libraries in Python.</p>
+                            <a href="https://github.com/apoorvdixit99/STC" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/eye.jpg">
+                        <div class="layer">
+                            <h3>Detection of Diabetic Retinopathy</h3>
+                            <p>I developed a deep learning model to detect Diabetic Retinopathy in Retinal Images. I developed a simple WebApp interface for the deployed model as well. </p>
+                            <a href="https://github.com/apoorvdixit99/DR-Detection-WebApp" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/quiz.jpg">
+                        <div class="layer">
+                            <h3>MCQ Platform</h3>
+                            <p>I was tasked with developing the BackEnd of a WebApp for MCQ based coding competitions. The WebApp was deployed for my college's Annual Technical Fest, Pulzion' 19.</p>
+                            <a href="https://github.com/apoorvdixit99/MCQ" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/medals.png">
+                        <div class="layer">
+                            <h3>Decentralised Competition Management System (DCMS)</h3>
+                            <p>DCMS is a WebApp which aims to verify the participation and prize distribution in a competition seamlessly. DCMS won the 3rd Prize at the Devcon' 21 HackOverflow organised by IEEE NCU Student Branch on DevFolio. DCMS won the Ethereum track prize from Polygon as well.</p>
+                            <a href="https://vimeo.com/567786327" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/apoorvdixit99" target="_blank" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- Articles -->
+        <div id="articles">
+            <div class="container">
+                <h1 class="sub-title">My Articles</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/blocks-world.jpg">
+                        <div class="layer">
+                            <h3>Goal Stack Planning for Blocks World Problem</h3>
+                            <p>In this medium article, I have explained the Blocks World Problem, and implemented Goal Stack Planning, an AI algorithm, to solve the same.</p>
+                            <a href="https://apoorvdixit619.medium.com/goal-stack-planning-for-blocks-world-problem-41779d090f29" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/convex-hull.jpg">
+                        <div class="layer">
+                            <h3>Convex Hull Problem</h3>
+                            <p>In this medium article, I have explained the Convex Hull Problem, and implemented a simple divide and conquer algorithm to solve the same.</p>
+                            <a href="https://apoorvdixit619.medium.com/convex-hull-problem-3358b4cb73d4" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/rsa.jpg">
+                        <div class="layer">
+                            <h3>RSA Encryption Algorithm</h3>
+                            <p>In this medium article, we take a look at the key concepts behind RSA Encryption Algorithm, and implementing it from scratch in Python.</p>
+                            <a href="https://apoorvdixit619.medium.com/rsa-encryption-algorithm-75d2c0e22c42" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://apoorvdixit619.medium.com/" class="btn" target="_blank">See more</a>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> apoorvdixit619@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91-9028610141</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/apoorvdixit9" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/apoorv.dixit_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/apoorvdixit99" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://devfolio.co/@apoorvdixit" target="_blank"><i class="fa-brands fa-dev"></i></a>
+                        </div>
+                        <a class="btn btn2" href="images/apoorv-dixit-cv.pdf" download>Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Made with <i class="fas fa-heart"></i> by Apoorv Dixit. </p>
+            </div>
+        </div>
+
+        <script>
+            var tabLinks = document.getElementsByClassName("tab-links");
+            var tabContents = document.getElementsByClassName("tab-contents");
+            function openTab(tabName) {
+                for(tabLink of tabLinks) {
+                    tabLink.classList.remove("active-link");
+                }
+                for(tabContent of tabContents) {
+                    tabContent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabName).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sideMenu = document.getElementById("sidemenu");
+
+            function openMenu() {
+                sideMenu.style.right = "0";
+            }
+
+            function closeMenu() {
+                sideMenu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxM-5jkRJgrpSbnz1Nmmp8QcXGuSK90ApqlmazWiFkQ7x-dZfB7MXBX_ZVdabl7x_ln/exec';
+            const form = document.forms['submit-to-google-sheet'];
+            const msg = document.getElementById("msg");
+        
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function() {
+                        msg.innerHTML = '';
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
