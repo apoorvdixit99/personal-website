@@ -7,6 +7,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    text-align: justify;
+    text-justify: inter-word;
 }
 html {
     scroll-behavior: smooth;
@@ -131,8 +133,7 @@ nav ul li a:hover::after{
     color:#ff004f;
 }
 .tab-contents .text-far-right{
-    color: #ababab;
-    /* text-align: right; */
+    color: inherit;
     float: right;
 }
 .tab-contents {
@@ -144,6 +145,10 @@ nav ul li a:hover::after{
 .tab-contents  ul li ul li {
     list-style: circle;
     margin: 0 0 0 30px;
+}
+.tab-contents .certification-links {
+    text-decoration: none;
+    color: inherit;
 }
 /* Portfolio */
 #portfolio {
