@@ -296,6 +296,9 @@ form .btn2 {
 .footer i{
     color: #ff004f;
 }
+.footer p{
+    text-align: center;
+}
 /* CSS for small screen*/
 nav .fas{
     display: none;
