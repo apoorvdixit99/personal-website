@@ -284,7 +284,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,0)), url(images/phone-background-3.jpg);
+        background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,0)), url(images/phone-background.jpg);
     }
     .header-text {
         margin-top: 100%;
