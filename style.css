@@ -130,11 +130,20 @@ nav ul li a:hover::after{
 .tab-contents ul li span{
     color:#ff004f;
 }
+.tab-contents .text-far-right{
+    color: #ababab;
+    /* text-align: right; */
+    float: right;
+}
 .tab-contents {
     display: none;
 }
 .tab-contents.active-tab {
     display: block;
+}
+.tab-contents  ul li ul li {
+    list-style: circle;
+    margin: 0 0 0 30px;
 }
 /* Portfolio */
 #portfolio {
