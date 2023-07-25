@@ -225,6 +225,55 @@ nav ul li a:hover::after{
 .btn:hover {
     background: #ff004f;
 }
+/* Recommendation */
+#recommendations {
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+.rec-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.rec-card {
+    max-width: 700px;
+    background: #262626;
+    padding: 40px;
+    margin: auto;
+    font-weight: 300;
+    border-right: 10px;
+    border-radius: 10px;
+}
+.rec-description i {
+    font-size: 30px;
+    color: #ff004f;
+}
+.rec-description p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+.rec-description {
+    margin-bottom: 20px;
+}
+.rec-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.rec-person {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.rec-person a {
+    text-decoration: none;
+    color: inherit;
+}
+.rec-person-name {
+    font-weight: bold;
+}
 /* Contact */
 .contact-left {
     flex-basis: 35%;
@@ -357,6 +406,9 @@ nav .fas{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .rec-card {
+        width: 90%;
     }
     .footer {
         font-size: 14px;
