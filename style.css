@@ -232,15 +232,19 @@ nav ul li a:hover::after{
     margin-bottom: 50px;
 }
 .rec-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 40px;
     margin-top: 50px;
 }
 .rec-card {
     max-width: 700px;
     background: #262626;
     padding: 40px;
-    margin: auto;
+    margin: 40px;
     font-weight: 300;
     border-radius: 10px;
+    justify-content: space-between;
 }
 .rec-description i {
     font-size: 30px;
